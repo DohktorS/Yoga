@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <style>
+            h1 {
+                text-align: center;
+                color: pink;
+            }
+
+            h2 {
+                text-align: center;
+                border-radius: 10px;
+                border: 1px solid pink;
+                padding: 15px;
+            }
+
+            img {
+                border-radius: 10px;
+                width: 100%;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 1.5;
+            }
+
+            button {
+                width: 100%;
+                background: pink;
+                color: white;
+                border: none;
+                padding: 15px;
+                font-size: 20px;
+                border-radius: 30px;
+                box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+                margin: 20px 0;
+            }
+
+            footer {
+                text-align: center;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            Yoga and Meditation
+        </h1>
+        <h2>
+            Be Disciplined
+        </h2>
+        <img 
+        src="https://www.byrdie.com/thmb/CAr44qpyrW8Wn2DuSid7PxWXQaM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Stocksy_txp35f99a2eKb6300_Medium_3271355-fb417f0d8a9a4f959edec6e0dfb83c34.jpg"
+        alt=""
+        />
+        <p>
+            Yoga is a group of physical, mental and spiritual practices or disciplines which originated in ancient India.Yoga is one of the six astika schools of Hindu Philosophical traditions.
+            There is a broad variety of yoga schools, practices and goals in Hinduism, Buddhism and Jainism.
+            <br  />
+            <br  />
+            <a href="https://en.wikipedia.org/wiki/Yoga">
+                Learn more on wikipedia
+            </a>
+        </p>
+        <button>
+            Go to a Yoga and Meditation Class
+        </button>
+        <footer>
+            Coded by Uzoma Somtochukwu Nzewi, with the help of SheCodes
+            <a href="https://www.shecodes.io">
+                SheCodes
+            </a>
+        </footer>
+
+        <script>
+            function subscribe() {
+            let name = prompt("What is your full name?");
+            prompt ("Enter your email address?");
+
+            alert(
+                `Thanks, ${name}! We will be in touch, but for the mean time,BREATHE.`
+            );
+        }
+
+        let button = document.querySelector("button");
+        button.addEventListener("click", subscribe);
+        </script>
+    </body>
+</html>
